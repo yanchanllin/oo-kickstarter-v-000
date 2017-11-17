@@ -14,6 +14,6 @@ class Backer
       project.backers <<self
       #project.add_backer(self)
     end
-    
+
 
 end
