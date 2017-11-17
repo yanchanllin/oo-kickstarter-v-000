@@ -5,9 +5,10 @@ class Project
     def initialize(title)
         @title = title
       end
-   def add_backer(Backer) 
+   def add_backer(Backer)
      backer = Backer.new
      backers << backer
-   end 
-   
-end 
+     backed_projects << project
+   end
+
+end
